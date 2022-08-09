@@ -43,7 +43,7 @@ body {
     margin-bottom: 2rem;
     text-align: center;
 }
-.accordian, .drop-down-text {
+.accordian {
     padding: 1.5rem 0;
     border-bottom: 1px solid var(--divider);
 }
@@ -58,6 +58,8 @@ body {
 }
 .drop-down-text {
     color: var(--text-neutral2);
+    max-height: 0;
+    overflow: hidden;
 }
 .arrow-icon {
     height: auto;
@@ -66,7 +68,16 @@ body {
     right: 0;
     top: calc(90% / 2);
 }
-
+.active {
+    font-weight: 700;
+    border-bottom: none;
+    padding-bottom: 1rem;
+}
+.is-down {
+    border-bottom: 1px solid var(--divider);
+    max-height: max-content;
+    padding: 0 0 1.5rem;
+}
 .attribution {
     color: var(--text-neutral1);
     background-color: var(--background1);
