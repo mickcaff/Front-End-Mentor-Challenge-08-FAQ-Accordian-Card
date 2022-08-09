@@ -1,8 +1,10 @@
 :root {
     --background1: hsl(273, 75%, 66%);
     --background2: hsl(240, 73%, 65%);
-    --neutral1: hsl(237, 12%, 33%);
-    --neutral2: hsl(240, 6%, 50%);
+    --text-primary1: hsl(238, 29%, 16%);
+    --text-primary2: hsl(14, 88%, 65%);
+    --text-neutral1: hsl(237, 12%, 33%);
+    --text-neutral2: hsl(240, 6%, 50%);
     --divider: hsl(240, 5%, 91%);
 }
 
@@ -15,7 +17,7 @@
 body {
     background: linear-gradient(var(--background1), var(--background2));
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
 }
 
 .main-card {
@@ -25,7 +27,7 @@ body {
     background-position: top;
     border-radius: 2rem;
     margin: 180px auto;
-    padding: 150px 5% 10%;
+    padding: 150px 6% 10%;
     position: relative;
     width: 90%;
 }
@@ -39,5 +41,36 @@ body {
 .title {
     font-size: 2.5rem;
     margin-bottom: 2rem;
+    text-align: center;
+}
+.accordian, .drop-down-text {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--divider);
+}
+.accordian {
+    color: var(--text-neutral1);
+    font-size: 1.1rem;
+    position: relative;
+}
+.accordian:hover {
+    color: var(--text-primary2);
+    cursor: pointer;
+}
+.drop-down-text {
+    color: var(--text-neutral2);
+}
+.arrow-icon {
+    height: auto;
+    width: 16px;
+    position: absolute;
+    right: 0;
+    top: calc(90% / 2);
+}
+
+.attribution {
+    color: var(--text-neutral1);
+    background-color: var(--background1);
+    width: 100vw;
+    padding: 1%;
     text-align: center;
 }
