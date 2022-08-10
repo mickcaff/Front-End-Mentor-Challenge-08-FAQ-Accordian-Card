@@ -27,13 +27,13 @@ body {
     background-position: top;
     border-radius: 2rem;
     margin: 180px auto;
-    padding: 150px 6% 10%;
+    padding: 150px 6% 70px;
     position: relative;
     width: 90%;
+    max-width: 500px;
 }
 .hero-image {
     position: absolute;
-    /* box-shadow: 10px 10px; */
     top: calc(-230px / 2);
     left: calc((100% - 250px) / 2);
     max-width: 250px;
@@ -44,12 +44,13 @@ body {
     text-align: center;
 }
 .accordian {
-    padding: 1.5rem 0;
+    padding: 1.0rem 0;
     border-bottom: 1px solid var(--divider);
 }
 .accordian {
     color: var(--text-neutral1);
-    font-size: 1.1rem;
+    font-size: 1rem;
+    padding-right: 2rem;
     position: relative;
 }
 .accordian:hover {
@@ -84,4 +85,29 @@ body {
     width: 100vw;
     padding: 1%;
     text-align: center;
+}
+
+@media (min-width: 500px) {
+    .main-card {
+        padding: 150px 48px 50px;
+    }
+    .accordian {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1100px) {
+    .main-card {
+        background-image: url('../images/bg-pattern-desktop.svg'), url('../images/illustration-woman-online-desktop.svg');
+        background-position: left -545px top 65%, left -10% top 50%;
+        max-width: 1000px;
+        margin: 120px auto;
+        padding: 80px 80px 80px 500px;
+    }
+    .hero-image {
+        display: none;
+    }
+    .title {
+        text-align: left;
+    }
 }
