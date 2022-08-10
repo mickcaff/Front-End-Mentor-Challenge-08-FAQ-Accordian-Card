@@ -38,6 +38,9 @@ body {
     left: calc((100% - 250px) / 2);
     max-width: 250px;
 }
+.box-image-desktop {
+    display: none;
+}
 .title {
     font-size: 2.5rem;
     margin-bottom: 2rem;
@@ -103,9 +106,16 @@ body {
         max-width: 1000px;
         margin: 120px auto;
         padding: 80px 80px 80px 500px;
+        position: relative;
     }
     .hero-image {
         display: none;
+    }
+    .box-image-desktop {
+        display: inline-block;
+        position: absolute;
+        left: -90px;
+        top: calc(50% - 40px);
     }
     .title {
         text-align: left;
