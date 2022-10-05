@@ -2,14 +2,18 @@
 
 This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+#### Link
+
+- My Solution Live Site URL: [https://preeminent-biscochitos-2ced7e.netlify.app/](https://preeminent-biscochitos-2ced7e.netlify.app/)
+
 ## Table of contents
 
 - [Frontend Mentor - FAQ accordion card solution](#frontend-mentor---faq-accordion-card-solution)
+      - [Link](#link)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshots](#screenshots)
-    - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
@@ -36,12 +40,6 @@ Desktop View
 Mobile View
 
 <img src="./images/final-mobile.png" alt="Mobile view screenshot" width="250px">
-
-
-### Links
-
-- Solution URL: [https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam)
-- Live Site URL: [https://preeminent-biscochitos-2ced7e.netlify.app/](https://preeminent-biscochitos-2ced7e.netlify.app/)
 
 
 ## My process
